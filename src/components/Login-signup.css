@@ -1,0 +1,114 @@
+.continar-body{
+    /* background-image: url("https://images.unsplash.com/photo-1624556856956-422831d792d3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    /* background-image: url("https://media.istockphoto.com/id/531253600/photo/sunrise.jpg?s=612x612&w=0&k=20&c=gdlZaKWcTjW1hmTRN8veqYIV25O4OfN4MhNx2H5Rgnk="); */
+    background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-image: url("https://wallpaperaccess.com/full/1685406.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.continar{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding: 20px 20px;
+    backdrop-filter: blur(30px);
+    border-radius: 2rem;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+.text{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.underline{
+    width: 60px;
+    height: 6px;
+    background-color: white;
+    border-radius: 9px;
+    margin-top:5px ;
+}
+.inputs{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 50px;
+    border-radius: 2rem;
+    border: 0.1rem solid;
+    outline: white;
+    
+}
+.input i{
+    margin: 0px 30px;
+}
+.input input{
+    height: 2rem;
+    width: 17rem;
+    background-color:transparent;
+    /* background-color: yellow; */
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 19px;
+}
+.forget-password{
+   padding-left: 62px;
+   margin-top: 10px;
+   color:white;
+   font-size: 16px;
+}
+.forget-password a{
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+}
+.forget-password a:hover{
+    text-decoration: underline;
+}
+.forget-password span{
+    margin-left: 3px;
+    
+}
+.submit-continar{
+    display: flex;
+    margin: 10px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    color:black;
+    background-color:white;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    transition: 1s ease-in-out;
+
+}
+.submit:hover{
+    background-color:gray;
+    transition: 1s ease-in-out;
+}

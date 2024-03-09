@@ -1,0 +1,14 @@
+.about-continar{
+    margin: 4rem 6rem;
+}
+.about-continar h1{
+    padding-bottom: 1rem;
+}
+.about-continar p{
+    padding-bottom: 2rem;
+}
+@media screen and (max-width:700px) {
+    .about-continar{
+        margin: 4rem 2rem;
+    }
+}
